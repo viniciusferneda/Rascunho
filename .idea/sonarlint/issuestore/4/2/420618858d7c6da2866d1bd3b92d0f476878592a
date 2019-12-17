@@ -1,0 +1,19 @@
+
+T
+squid:S106;"9Replace this use of System.out or System.err by a logger.(®ÚÝÓþÿÿÿÿ
+Fsquid:S10662"/Merge this if statement with the enclosing one.(ìÜõ¹
+Ksquid:S2864:"4Iterate over the "entrySet" instead of the "keySet".(Ëö Á
+T
+squid:S106?"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+Ksquid:S2864V"4Iterate over the "entrySet" instead of the "keySet".(Ëö Á
+T
+squid:S106W"9Replace this use of System.out or System.err by a logger.(®ÚÝÓþÿÿÿÿ
+T
+squid:S106="9Replace this use of System.out or System.err by a logger.(¬ñé‡þÿÿÿÿ
+Ysquid:UnusedPrivateMethod"4Remove this unused private "numerosMaisSaem" method.(Çáâ·
+T
+squid:S106["9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+T
+squid:S106Y"9Replace this use of System.out or System.err by a logger.(¬ñé‡þÿÿÿÿ
+isquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Çáâ·
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ªíìðûÿÿÿÿ

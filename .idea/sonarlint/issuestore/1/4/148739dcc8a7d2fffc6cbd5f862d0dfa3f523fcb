@@ -1,0 +1,8 @@
+
+V
+squid:S1063"9Replace this use of System.out or System.err by a logger.(ÒÑçø8Ê•±Üæ-
+[squid:S1197/"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8Ê•±Üæ-
+Ksquid:S11251"(Remove the literal "true" boolean value.(‚Â¤µûÿÿÿÿ8Ê•±Üæ-
+Wsquid:S2121"9Remove this "substring" call; it has predictable results.(şÕı™8ùÚşÜæ-
+Wsquid:S2864$"4Iterate over the "entrySet" instead of the "keySet".(Ï¥Î×ÿÿÿÿÿ8¤—şÜæ-
+usquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ªã¿şÿÿÿÿ8È²«İæ-
