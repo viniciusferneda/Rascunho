@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ca83341-3e1b-48b2-907b-d1f0dc16db4e" name="Default Changelist" comment="Método para recuperar o código da unimed no arquivo">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="4ca83341-3e1b-48b2-907b-d1f0dc16db4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/unimed/GetDocumento1LastSeven.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/rascunho/Rascunho.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rascunho/Rascunho.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unimed/GetCodUnimed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unimed/GetDocumento1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,17 +53,21 @@
     <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="unimed" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\ws_pessoal\Rascunho" />
       <recent name="C:\eclipse\ws_qualirede\Rascunho" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Rascunho">
-    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="geekhunter.MyClass" />
+  <component name="RunManager" selected="Application.GetDocumento1LastSeven">
+    <configuration name="GetDocumento1LastSeven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unimed.GetDocumento1LastSeven" />
       <module name="Rascunho" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="geekhunter.*" />
+          <option name="PATTERN" value="unimed.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreencherString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="preencher.string.PreencherString" />
+    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geekhunter.MyClass" />
       <module name="Rascunho" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="preencher.string.*" />
+          <option name="PATTERN" value="geekhunter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,19 +128,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PreencherString" />
       <item itemvalue="Application.RandomExample" />
       <item itemvalue="Application.UpperCaseByReflection" />
       <item itemvalue="Application.MyClass" />
       <item itemvalue="Application.Rascunho" />
+      <item itemvalue="Application.GetDocumento1LastSeven" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetDocumento1LastSeven" />
         <item itemvalue="Application.Rascunho" />
         <item itemvalue="Application.MyClass" />
         <item itemvalue="Application.UpperCaseByReflection" />
         <item itemvalue="Application.RandomExample" />
-        <item itemvalue="Application.PreencherString" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +179,7 @@
       <workItem from="1574797138065" duration="568000" />
       <workItem from="1576253318962" duration="88000" />
       <workItem from="1576606752467" duration="637000" />
-      <workItem from="1581426888184" duration="1257000" />
+      <workItem from="1581426888184" duration="3102000" />
     </task>
     <task id="LOCAL-00001" summary="Método para recuperar o código da unimed no arquivo">
       <created>1581428136060</created>
@@ -183,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581428136060</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="arquivo gitignore">
+      <created>1581428448768</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581428448768</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,37 +205,38 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Método para recuperar o código da unimed no arquivo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Método para recuperar o código da unimed no arquivo" />
+    <MESSAGE value="arquivo gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="arquivo gitignore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1581428329732">
+    <state x="321" y="16" width="942" height="707" key="CommitChangelistDialog2" timestamp="1581428448103">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.0.1366.768@0.0.1366.738" timestamp="1581428329732" />
-    <state width="1323" height="183" key="GridCell.Tab.0.bottom" timestamp="1581428036277">
+    <state x="321" y="16" width="942" height="707" key="CommitChangelistDialog2/0.0.1366.738/1366.0.1366.768@0.0.1366.738" timestamp="1581428448103" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1581430485134">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="183" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1366.768@0.0.1366.738" timestamp="1581428036277" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1366.768@0.0.1366.738" timestamp="1581430485134" />
     <state width="1323" height="193" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1366.768@1366.0.1366.768" timestamp="1576253409977" />
-    <state width="1323" height="183" key="GridCell.Tab.0.center" timestamp="1581428036277">
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1581430485133">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="183" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1366.768@0.0.1366.738" timestamp="1581428036277" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1366.768@0.0.1366.738" timestamp="1581430485133" />
     <state width="1323" height="193" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1366.768@1366.0.1366.768" timestamp="1576253409977" />
-    <state width="1323" height="183" key="GridCell.Tab.0.left" timestamp="1581428036276">
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1581430485133">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="183" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1366.768@0.0.1366.738" timestamp="1581428036276" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1366.768@0.0.1366.738" timestamp="1581430485133" />
     <state width="1323" height="193" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1366.768@1366.0.1366.768" timestamp="1576253409977" />
-    <state width="1323" height="183" key="GridCell.Tab.0.right" timestamp="1581428036277">
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1581430485134">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="183" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1366.768@0.0.1366.738" timestamp="1581428036277" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1366.768@0.0.1366.738" timestamp="1581430485134" />
     <state width="1323" height="193" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1366.768@1366.0.1366.768" timestamp="1576253409977" />
-    <state x="275" y="106" key="Vcs.Push.Dialog.v2" timestamp="1581428137715">
+    <state x="275" y="106" key="Vcs.Push.Dialog.v2" timestamp="1581428450873">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="106" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1366.768@0.0.1366.738" timestamp="1581428137715" />
+    <state x="275" y="106" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1366.768@0.0.1366.738" timestamp="1581428450873" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1581428065384">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
