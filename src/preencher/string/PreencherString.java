@@ -4,9 +4,6 @@ import com.google.common.base.Strings;
 
 public class PreencherString {
 
-    /**
-     * @param args
-     */
     public static void main(String[] args) {
         final String nrMatricula = "123456789";
 
