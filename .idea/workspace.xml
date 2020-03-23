@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ca83341-3e1b-48b2-907b-d1f0dc16db4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/unimed/MontarNomeArquivoEsperado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/DateHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/preencher/string/PreencherString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/preencher/string/PreencherString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/preencher/string/PreencherString.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/preencher/string/PreencherString.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,20 @@
       <recent name="C:\eclipse\ws_qualirede\Rascunho" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MontarNomeArquivoEsperado">
+  <component name="RunManager" selected="Application.DateHelper">
+    <configuration name="DateHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data.DateHelper" />
+      <module name="Rascunho" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetDocumento1LastSeven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="unimed.GetDocumento1LastSeven" />
       <module name="Rascunho" />
@@ -103,19 +116,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rascunho" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rascunho.Rascunho" />
-      <module name="Rascunho" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rascunho.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SplitNomeArquivoA560" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="unimed.SplitNomeArquivoA560" />
       <module name="Rascunho" />
@@ -130,19 +130,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Rascunho" />
       <item itemvalue="Application.GetDocumento1LastSeven" />
       <item itemvalue="Application.SplitNomeArquivoA560" />
       <item itemvalue="Application.PreencherString" />
       <item itemvalue="Application.MontarNomeArquivoEsperado" />
+      <item itemvalue="Application.DateHelper" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DateHelper" />
         <item itemvalue="Application.MontarNomeArquivoEsperado" />
         <item itemvalue="Application.PreencherString" />
         <item itemvalue="Application.SplitNomeArquivoA560" />
         <item itemvalue="Application.GetDocumento1LastSeven" />
-        <item itemvalue="Application.Rascunho" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +183,8 @@
       <workItem from="1576606752467" duration="637000" />
       <workItem from="1581426888184" duration="3123000" />
       <workItem from="1581617387066" duration="1499000" />
-      <workItem from="1582119406579" duration="1665000" />
+      <workItem from="1582119406579" duration="2297000" />
+      <workItem from="1584996996543" duration="1012000" />
     </task>
     <task id="LOCAL-00001" summary="Método para recuperar o código da unimed no arquivo">
       <created>1581428136060</created>
@@ -213,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581621797028</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Montagem do nome do arquivo A560">
+      <created>1582129565144</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582129565144</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,41 +234,52 @@
     <MESSAGE value="arquivo gitignore" />
     <MESSAGE value="novos testes" />
     <MESSAGE value="Split do arquivo A560" />
-    <option name="LAST_COMMIT_MESSAGE" value="Split do arquivo A560" />
+    <MESSAGE value="Montagem do nome do arquivo A560" />
+    <option name="LAST_COMMIT_MESSAGE" value="Montagem do nome do arquivo A560" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="89" key="#com.intellij.ide.util.MemberChooser" timestamp="1582119767139">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="89" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.0.1366.768@0.0.1366.738" timestamp="1582119767139" />
-    <state x="321" y="16" width="942" height="707" key="CommitChangelistDialog2" timestamp="1581621795163">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="1687" y="17" width="942" height="707" key="CommitChangelistDialog2" timestamp="1582129563417">
+      <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="321" y="16" width="942" height="707" key="CommitChangelistDialog2/0.0.1366.738/1366.0.1366.768@0.0.1366.738" timestamp="1581621795163" />
-    <state width="1323" height="176" key="GridCell.Tab.0.bottom" timestamp="1582120457774">
-      <screen x="1366" y="0" width="1366" height="768" />
+    <state x="1687" y="17" key="CommitChangelistDialog2/0.0.1366.738/1366.0.1366.768@1366.0.1366.768" timestamp="1582129563417" />
+    <state width="1557" height="166" key="GridCell.Tab.0.bottom" timestamp="1584997696355">
+      <screen x="1366" y="0" width="1600" height="900" />
     </state>
     <state width="1323" height="167" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1366.768@0.0.1366.738" timestamp="1582119506831" />
-    <state width="1323" height="176" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1366.768@1366.0.1366.768" timestamp="1582120457774" />
-    <state width="1323" height="176" key="GridCell.Tab.0.center" timestamp="1582120457774">
-      <screen x="1366" y="0" width="1366" height="768" />
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1366.768@1366.0.1366.768" timestamp="1582131451110" />
+    <state width="1557" height="166" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1600.900@1366.0.1600.900" timestamp="1584997696355" />
+    <state width="1557" height="166" key="GridCell.Tab.0.center" timestamp="1584997696355">
+      <screen x="1366" y="0" width="1600" height="900" />
     </state>
     <state width="1323" height="167" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1366.768@0.0.1366.738" timestamp="1582119506831" />
-    <state width="1323" height="176" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1366.768@1366.0.1366.768" timestamp="1582120457774" />
-    <state width="1323" height="176" key="GridCell.Tab.0.left" timestamp="1582120457774">
-      <screen x="1366" y="0" width="1366" height="768" />
+    <state width="1323" height="176" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1366.768@1366.0.1366.768" timestamp="1582131451110" />
+    <state width="1557" height="166" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1600.900@1366.0.1600.900" timestamp="1584997696355" />
+    <state width="1557" height="166" key="GridCell.Tab.0.left" timestamp="1584997696355">
+      <screen x="1366" y="0" width="1600" height="900" />
     </state>
     <state width="1323" height="167" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1366.768@0.0.1366.738" timestamp="1582119506831" />
-    <state width="1323" height="176" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1366.768@1366.0.1366.768" timestamp="1582120457774" />
-    <state width="1323" height="176" key="GridCell.Tab.0.right" timestamp="1582120457774">
-      <screen x="1366" y="0" width="1366" height="768" />
+    <state width="1323" height="176" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1366.768@1366.0.1366.768" timestamp="1582131451110" />
+    <state width="1557" height="166" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1600.900@1366.0.1600.900" timestamp="1584997696355" />
+    <state width="1557" height="166" key="GridCell.Tab.0.right" timestamp="1584997696355">
+      <screen x="1366" y="0" width="1600" height="900" />
     </state>
     <state width="1323" height="167" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1366.768@0.0.1366.738" timestamp="1582119506831" />
-    <state width="1323" height="176" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1366.768@1366.0.1366.768" timestamp="1582120457774" />
-    <state x="275" y="106" key="Vcs.Push.Dialog.v2" timestamp="1581621798873">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1323" height="176" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1366.768@1366.0.1366.768" timestamp="1582131451110" />
+    <state width="1557" height="166" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1600.900@1366.0.1600.900" timestamp="1584997696355" />
+    <state x="1641" y="110" key="Vcs.Push.Dialog.v2" timestamp="1582129567363">
+      <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="106" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1366.768@0.0.1366.738" timestamp="1581621798873" />
+    <state x="1641" y="110" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1366.768@1366.0.1366.768" timestamp="1582129567363" />
+    <state x="1822" y="205" key="run.anything.popup" timestamp="1584997226633">
+      <screen x="1366" y="0" width="1600" height="900" />
+    </state>
+    <state x="1822" y="205" key="run.anything.popup/0.0.1366.738/1366.0.1600.900@1366.0.1600.900" timestamp="1584997226633" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1581428065384">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
