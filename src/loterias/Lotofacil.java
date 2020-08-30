@@ -13,7 +13,7 @@ public class Lotofacil {
 
     private static final int QTD_NUMEROS_POR_JOGO = 15;
     private static final int NUMERO_MAXIMO_JOGO = 25;
-    private static final int QTD_NUMEROS_SORTEADOS = 60;
+    private static final int QTD_CONCURSOS = 5;
 
     public static void main(String[] args) {
         numerosRandomicos();
@@ -69,7 +69,8 @@ public class Lotofacil {
         HashMap<Integer, List<Integer>> mapNumeros = new HashMap<>();
         int index = 0;
         Set<Integer> setNumAux = new HashSet<>();
-        for (int i = 0; i < QTD_NUMEROS_SORTEADOS; i++) {//
+        final int qtdNumeros = QTD_CONCURSOS * QTD_NUMEROS_POR_JOGO;
+        for (int i = 0; i < qtdNumeros; i++) {//
             int nextInt = new SecureRandom().nextInt(max) + 1;
             while (setNumAux.contains(nextInt)) {
                 nextInt = new SecureRandom().nextInt(max) + 1;
@@ -84,9 +85,13 @@ public class Lotofacil {
             }
         }
         for (Integer jogo : mapNumeros.keySet()) {
-            System.out.println("***************************");
-            for (Integer num : mapNumeros.get(jogo)) {
-                System.out.print(num + " ");
+            System.out.println("*************************** Jogo "+ jogo+1 +" ***************************");
+            for (final Integer num : mapNumeros.get(jogo)) {
+                if(num < 10){
+                    System.out.print("0" + num + " ");
+                }else {
+                    System.out.print(num + " ");
+                }
             }
             System.out.println();
         }
