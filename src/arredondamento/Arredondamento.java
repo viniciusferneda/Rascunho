@@ -1,6 +1,7 @@
 package arredondamento;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 public class Arredondamento {
 
@@ -33,5 +34,7 @@ public class Arredondamento {
 		System.out.println("Contestado (R$) = " + vlContestadoDevedora);
 		System.out.println("Contestado (%) = " + vlContestadoPercentualDevedora);
 
+		final int qtRelMap = new BigDecimal(17 / (double) 10).setScale(0, RoundingMode.UP).intValue();
+		System.out.println("Qtd = " + qtRelMap);
 	}
 }

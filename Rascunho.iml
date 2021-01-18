@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
+  <component name="CheckStyle-IDEA-Module">
+    <option name="configuration">
+      <map />
+    </option>
+  </component>
   <component name="EclipseModuleManager">
     <libelement value="jar://$MODULE_DIR$/commons-lang-2.0.jar!/" />
     <libelement value="jar://$MODULE_DIR$/velocity-1.7.jar!/" />
