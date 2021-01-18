@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ca83341-3e1b-48b2-907b-d1f0dc16db4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-json.jar.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/donus/Teste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/donus/Teste2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/donus/Teste3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json-20201115.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rascunho.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Rascunho.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/arredondamento/Arredondamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/arredondamento/Arredondamento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/donus/Teste2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/donus/Teste2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/donus/Teste3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/donus/Teste3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549043176871" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/java-json.jar.zip" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/json-20201115.jar" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -70,6 +70,7 @@
       <recent name="C:\eclipse\ws_qualirede\Rascunho" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\ws_pessoal\Rascunho" />
       <recent name="C:\Work\projects\Rascunho" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -142,13 +143,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -283,11 +286,6 @@
           <url>file://$PROJECT_DIR$/src/geekhunter/MyClass.java</url>
           <line>18</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/donus/Teste2.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
