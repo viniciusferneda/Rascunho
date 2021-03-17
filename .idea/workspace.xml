@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ca83341-3e1b-48b2-907b-d1f0dc16db4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/json-20201115.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-test-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-test.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kotlin/IntroducaoKotlin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rascunho.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Rascunho.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/arredondamento/Arredondamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/arredondamento/Arredondamento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/donus/Teste2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/donus/Teste2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/donus/Teste3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/donus/Teste3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +60,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -63,6 +73,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -219,6 +230,8 @@
       <workItem from="1610828586289" duration="593000" />
       <workItem from="1610919044344" duration="119000" />
       <workItem from="1610919718533" duration="8569000" />
+      <workItem from="1613077358926" duration="142000" />
+      <workItem from="1616010366159" duration="274000" />
     </task>
     <task id="LOCAL-00001" summary="Método para recuperar o código da unimed no arquivo">
       <created>1581428136060</created>
@@ -262,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598831310274</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Sorteio Lotofacil">
+      <created>1610982064417</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610982064417</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +291,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Método para recuperar o código da unimed no arquivo" />
     <MESSAGE value="arquivo gitignore" />
     <MESSAGE value="novos testes" />
