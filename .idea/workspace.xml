@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ca83341-3e1b-48b2-907b-d1f0dc16db4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-test-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-test.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kotlin/IntroducaoKotlin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4ca83341-3e1b-48b2-907b-d1f0dc16db4e" name="Default Changelist" comment="Introdução a Kotlin">
+      <change afterPath="$PROJECT_DIR$/src/dio/DesafioGFT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rascunho.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Rascunho.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/br/com/dynamix/ajius/stresser/StresserTest$AuxThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/br/com/dynamix/ajius/stresser/StresserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rascunho/Rascunho.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rascunho/Rascunho.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dynamix/ajius/stresser/StresserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kotlin/IntroducaoKotlin.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rascunho/Rascunho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rascunho/Rascunho.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -61,6 +57,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -69,7 +66,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/json-20201115.jar" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="database.main" />
@@ -88,13 +85,13 @@
       <recent name="unimed" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Teste3">
-    <configuration name="DateHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="data.DateHelper" />
+  <component name="RunManager" selected="Application.Rascunho">
+    <configuration name="Lotofacil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loterias.Lotofacil" />
       <module name="Rascunho" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="loterias.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lotofacil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loterias.Lotofacil" />
+    <configuration name="Rascunho" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rascunho.Rascunho" />
       <module name="Rascunho" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="loterias.*" />
+          <option name="PATTERN" value="rascunho.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,19 +165,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DateHelper" />
       <item itemvalue="Application.Lotofacil" />
       <item itemvalue="Application.Teste" />
       <item itemvalue="Application.Teste2" />
       <item itemvalue="Application.Teste3" />
+      <item itemvalue="Application.Rascunho" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Rascunho" />
         <item itemvalue="Application.Teste3" />
         <item itemvalue="Application.Teste2" />
         <item itemvalue="Application.Teste" />
         <item itemvalue="Application.Lotofacil" />
-        <item itemvalue="Application.DateHelper" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +228,9 @@
       <workItem from="1610919044344" duration="119000" />
       <workItem from="1610919718533" duration="8569000" />
       <workItem from="1613077358926" duration="142000" />
-      <workItem from="1616010366159" duration="274000" />
+      <workItem from="1616010366159" duration="655000" />
+      <workItem from="1616592187562" duration="1079000" />
+      <workItem from="1621460832865" duration="3086000" />
     </task>
     <task id="LOCAL-00001" summary="Método para recuperar o código da unimed no arquivo">
       <created>1581428136060</created>
@@ -282,7 +281,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610982064417</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Introdução a Kotlin">
+      <created>1616010683891</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616010683892</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Introdução a Kotlin">
+      <created>1616011044158</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616011044158</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +311,8 @@
     <MESSAGE value="Split do arquivo A560" />
     <MESSAGE value="Montagem do nome do arquivo A560" />
     <MESSAGE value="Sorteio Lotofacil" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sorteio Lotofacil" />
+    <MESSAGE value="Introdução a Kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Introdução a Kotlin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
