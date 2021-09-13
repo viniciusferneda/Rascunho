@@ -6,11 +6,9 @@ import java.net.URLConnection;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import org.junit.Test;
-
 public class StresserTest {
 
-    @Test
+    //@Test
     public void stressTest() {
         final Queue<Thread> waitqueue = new LinkedList<Thread>();
 
